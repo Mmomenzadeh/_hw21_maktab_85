@@ -1,0 +1,39 @@
+.card{
+    
+  background-color: rgba(0, 0, 0, 0.336);
+    width: 350px;
+    height: 130px;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    
+}
+.icons{
+  display: flex;
+  gap: 0.3rem;
+  cursor: pointer;
+}
+
+.icons .icon:nth-child(1):hover{
+  font-size: larger;
+}
+
+
+.icons .icon:nth-child(2):hover{
+  font-size: larger;
+}
+.card-header{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.card-body{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap:0.8rem;
+}
